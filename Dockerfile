@@ -7,3 +7,8 @@ ADD /build/libs/*.jar app.jar
 
 # [java 를 사용하겠다, 애플리케이션의 보안 랜덤 값을 생성, Java에서 JAR(Java Archive) 파일을 실행, 실행할 JAR 파일의 경로]
 ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+
+# 깃에 올라가야하는 목록들
+# Dockerfile
+# SpringDocerApplication.java
+# application.yml
